@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #121212;
+  color: #fff;
+  /* padding: 20px 100px; */
+}
+
+.header {
+  text-align: center;
+  /* margin-bottom: 20px; */
+  padding: 50px;
+}
+
+.header img {
+  width: 100%;
+  max-height: 300px;
+  padding: 20px 100px;
+  object-fit: cover;
+}
+
+.content {
+  background-color: #1e1e1e;
+  padding: 20px 150px;
+  border-top: 1px solid #fff;
+  /* border-radius: 8px; */
+}
+.content h1 {
+  margin: 20px 0 40px 0;
+  font-size: 3em;
+  line-height: normal;
+  /* text-align: center; */
+}
+
+.content h2 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.content p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.content ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.content ul li {
+  margin-bottom: 5px;
+}
+
+.content-nav {
+  background-color: #252537;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+.content-nav-title {
+  color: #ff5f87;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 23px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.list li {
+  background-color: #2b2b3d;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+.list li:hover {
+  background-color: #35354d;
+}
+.list li a {
+  color: #4aa4ff;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.list li a:hover {
+  text-decoration: underline;
+}
+.list li span {
+  background-color: #4aa4ff;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.code {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  color: #0f0;
+  overflow-x: auto;
+}
+
+.code-snap img {
+  width: 100%;
+  /* max-height: 300px; */
+  padding: 20px 100px;
+  object-fit: cover;
+}
+
+.info {
+  background-color: #222;
+  padding: 10px;
+  border-left: 5px solid #007bff;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.info p {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
