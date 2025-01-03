@@ -143,3 +143,26 @@ footer {
   font-size: 0.9em;
   color: #777;
 }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 99;
+  border: 2px solid;
+  border-color: white;
+  outline: none;
+  background-color: #252537;
+  /* color: var(--secondary); */
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 100%;
+  font-size: 18px;
+  width: 51px;
+  height: 51px;
+}
+
+#myBtn img {
+  width: fit-content;
+}
